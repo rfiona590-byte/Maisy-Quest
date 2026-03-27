@@ -7,7 +7,7 @@ public class ChickenMovement : MonoBehaviour
     //public var
     public float speed;
     public float attackRange = 2;
-    public float cooldown = 2;
+    public float cooldown = 5;
     public float playerDetectRange = 5;
     public Transform detectionPoint;
     public LayerMask playerLayer;
@@ -70,17 +70,21 @@ public class ChickenMovement : MonoBehaviour
         Collider2D[] hits = Physics2D.OverlapCircleAll(detectionPoint.position, playerDetectRange, playerLayer);
         if (hits.Length > 0)
         {
+          
             maisy = hits[0].transform;
             //checks if in range and cooldown is ready
-            if ((Vector2.Distance(transform.position, maisy.transform.position) < attackRange) && (cooldownTimer <= 0))
+            if (Vector2.Distance(transform.position, maisy.position) < attackRange && cooldownTimer <= 0)
             {
+                Debug.Log("test");
                 cooldownTimer = cooldown;
                 ChangeState(EnemyState.Attacking);
+                
             }
-            else if (Vector2.Distance(transform.position, maisy.transform.position) > attackRange)
+            else if (Vector2.Distance(transform.position, maisy.position) > attackRange)
             {
                 ChangeState(EnemyState.Chasing);
             }
+
         }
         else
         {
@@ -117,5 +121,5 @@ public enum EnemyState
 {
     Idle,
     Chasing,
-    Attacking
+    Attacking,
 }
