@@ -78,14 +78,14 @@ public class ChickenMovement : MonoBehaviour
             Debug.Log("maisy confirm");
             maisy = hits[0].transform;
             //checks if in range and cooldown is ready
-            if (Vector2.Distance(transform.position, hits[0].transform.position) <= attackRange )
+            if (Vector2.Distance(transform.position, maisy.position) <= (attackRange+1))
             {
                 Debug.Log("test");
                 ChangeState(EnemyState.Attacking);
                 cooldownTimer = cooldown;
 
             }
-            else if (Vector2.Distance(transform.position, hits[0].transform.position) > attackRange)
+            else if (Vector2.Distance(transform.position, maisy.position) > attackRange)
             {
                 ChangeState(EnemyState.Chasing);
             }
@@ -97,6 +97,8 @@ public class ChickenMovement : MonoBehaviour
             ChangeState(EnemyState.Idle);
         }
     }
+
+    
 
     private void OnDrawGizmosSelected()
     {

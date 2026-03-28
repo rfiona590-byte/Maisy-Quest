@@ -60,8 +60,8 @@ public class PlayerMovement : MonoBehaviour
     public void Knockback(Transform chicken, float force, float stunTime)
     {
         isKnockedBack = true;
-        Vector2 direction = (transform.position - chicken.position).normalized;
-        rb.linearVelocity = direction / force;
+        Vector2 direction = (transform.position - (chicken.position)).normalized;
+        rb.linearVelocity = direction * force;
         StartCoroutine(KnockbackCounter(stunTime));
     }
     IEnumerator KnockbackCounter(float stunTime)
