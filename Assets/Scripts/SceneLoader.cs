@@ -1,18 +1,32 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
+//test
 public class SceneLoader : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    public void GoToScene(int sceneIndex)
     {
-        
+        SceneManager.LoadScene(sceneIndex);
     }
 
-    // Update is called once per frame
-    void Update()
+    public void GoToNextScene()
     {
-        
+        GoToScene(SceneManager.GetActiveScene().buildIndex + 1);
+    }
+    public void GoToTitleScreen()
+    {
+        GoToScene(0);
+    }
+
+    public void ReloadCurrentScene()
+    {
+        GoToScene(SceneManager.GetActiveScene().buildIndex);
+    }
+
+    public void Exit()
+    {
+        Application.Quit();
     }
 }

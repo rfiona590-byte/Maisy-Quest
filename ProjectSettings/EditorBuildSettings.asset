@@ -5,9 +5,18 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/SampleScene.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
+  - enabled: 1
+    path: Assets/Maisey Quest/Start Screen.unity
+    guid: 12752be933cb34543b12e83ee44ef82a
+  - enabled: 1
+    path: Assets/Maisey Quest/test.unity
+    guid: 3d4d0883a9f43a5419ac690c91c09b20
+  - enabled: 1
+    path: Assets/Maisey Quest/Main.unity
+    guid: d3df7a26bd5ad6347a40194a20e13b42
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
