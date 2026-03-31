@@ -11,13 +11,13 @@ public class ChickenCombat : MonoBehaviour
     public float knockbackForce;
     public LayerMask playerLayer;
 
-    private void OnCollisionEnter2D(Collision2D collision)
-    {
-        if (collision.gameObject.tag == "Player")
-        {
-            collision.gameObject.GetComponent<MaisyHealth>().ChangeHealth(-damage);
-        }
-    }
+    //private void OnCollisionEnter2D(Collision2D collision)
+    //{
+        //if (collision.gameObject.tag == "Player")
+        //{
+            //collision.gameObject.GetComponent<MaisyHealth>().ChangeHealth(-damage);
+        //}
+    //}
     public void ChickenAttack ()
     {
         
