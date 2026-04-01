@@ -75,12 +75,10 @@ public class ChickenMovement : MonoBehaviour
         Collider2D[] hits = Physics2D.OverlapCircleAll(detectionPoint.position, playerDetectRange, playerLayer);
         if (hits.Length > 0)
         {
-            Debug.Log("maisy confirm");
             maisy = hits[0].transform;
             //checks if in range and cooldown is ready
             if (Vector2.Distance(transform.position, maisy.position) <= (attackRange+1))
             {
-                Debug.Log("test");
                 ChangeState(EnemyState.Attacking);
                 cooldownTimer = cooldown;
 

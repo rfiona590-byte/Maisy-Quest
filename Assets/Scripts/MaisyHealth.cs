@@ -5,25 +5,28 @@ using UnityEngine;
 
 public class MaisyHealth : MonoBehaviour
 {
-    public int currentHealth;
-    public int maxHealth;
 
     public TMP_Text healthText;
     public Animator healthAnim;
     private void Start()
     {
-        healthText.text = "Health: " + currentHealth + " / " + maxHealth;
+        healthText.text = "Health: " + StatsManager.Instance.currentHealth + " / " + StatsManager.Instance.maxHealth;
     }
 
     public void ChangeHealth (int amount)
     {
-        currentHealth += amount;
+        StatsManager.Instance.currentHealth += amount;
         healthAnim.Play("HealthUpdate");
-        healthText.text = "Health: " + currentHealth + " / " + maxHealth;
+        healthText.text = "Health: " + StatsManager.Instance.currentHealth + " / " + StatsManager.Instance.maxHealth;
 
-        if (currentHealth <= 0)
+        if (StatsManager.Instance.currentHealth <= 0)
         {
-            gameObject.SetActive(false);
+            Die();
         }
+    }
+    protected void Die ()
+    {
+        
+        Destroy(gameObject);
     }
 }

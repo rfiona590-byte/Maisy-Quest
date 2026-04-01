@@ -19,7 +19,6 @@ public class ChickenKnockback : MonoBehaviour
         StartCoroutine(StunTimer(stunTime));
         Vector2 direction = (transform.position - playerTransform.position).normalized;
         rb.linearVelocity = direction * knockForce;
-        Debug.Log("test");
     }
 
     IEnumerator StunTimer (float stunTime)

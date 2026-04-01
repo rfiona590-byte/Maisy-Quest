@@ -6,7 +6,7 @@ using static UnityEditor.Searcher.SearcherWindow.Alignment;
 
 public class PlayerMovement : MonoBehaviour
 {
-    public float speed = 5;
+   
     public int facing = -1;
     public Rigidbody2D rb;
     private SpriteRenderer rbSprite;
@@ -47,7 +47,7 @@ public class PlayerMovement : MonoBehaviour
             anim.SetFloat("horizontal", Mathf.Abs(horizontal));
             anim.SetFloat("vertical", Mathf.Abs(vertical));
 
-            rb.linearVelocity = new Vector2(horizontal, vertical) * speed;
+            rb.linearVelocity = new Vector2(horizontal, vertical) * StatsManager.Instance.speed;
         }
     }
 
