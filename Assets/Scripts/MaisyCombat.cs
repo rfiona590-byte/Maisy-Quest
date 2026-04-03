@@ -8,6 +8,7 @@ public class MaisyCombat : MonoBehaviour
     public Transform attackPoint;
     public LayerMask enemyLayer;
 
+    //code for attack
     public void MaisyAttack()
     {
         anim.SetBool("isAttacking", true);

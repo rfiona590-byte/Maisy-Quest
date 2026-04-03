@@ -27,4 +27,6 @@ public class StatsManager : MonoBehaviour
         else
             Destroy(gameObject);
     }
+
+    //add code here for level stuuff that increases power on each level
 }
