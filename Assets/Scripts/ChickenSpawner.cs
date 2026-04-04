@@ -39,7 +39,7 @@ public class ChickenSpawner : MonoBehaviour
         var chicken = Instantiate(chickenPrefab, transform.position, Quaternion.identity) as GameObject;
         chickens.Add(chicken);
 
-        if (chicken == null)
+        if (ChickenHealth.chickenDeath == true)
         {
             chickens.RemoveAt(1);
         }

@@ -4,9 +4,10 @@ using UnityEngine;
 
 public class ChickenHealth : MonoBehaviour
 {
-    public int currentHealth;
-    public int maxHealth;
+    public static int currentHealth;
+    public static int maxHealth;
     public int expReward = 5;
+    public static bool chickenDeath = false;
     //broadcastes message that chicken has been defeated
     public delegate void ChickenDefeated(int exp);
     //what otther scripts listen for
@@ -28,7 +29,9 @@ public class ChickenHealth : MonoBehaviour
         else if ( currentHealth <= 0)
         {
             OnChickenDefeat(expReward);
+            chickenDeath = true;
             Destroy(gameObject);
         }
+        chickenDeath = false;
     }
 }

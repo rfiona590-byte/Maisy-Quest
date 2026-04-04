@@ -20,6 +20,14 @@ public class StatsManager : MonoBehaviour
     public int currentHealth;
 
     //makes sure it doesn't break
+    private void Update()
+    {
+        if (ExpManager.lvlUp == true)
+        {
+            damage += 5;
+        }
+        ExpManager.lvlUp = false;
+    }
     private void Awake()
     {
         if (Instance == null)

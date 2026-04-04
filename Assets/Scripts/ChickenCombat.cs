@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class ChickenCombat : MonoBehaviour
 {
-    public int damage = 1;
+    public static int damage = 1;
     public Transform attackPoint;
     public float stunTime;
     public float range;

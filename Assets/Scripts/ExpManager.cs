@@ -6,6 +6,7 @@ using TMPro;
 
 public class ExpManager : MonoBehaviour
 {
+    public static bool lvlUp = false;
     public int level;
     public int currentExp;
     public int expToLevel = 10;
@@ -53,6 +54,11 @@ public class ExpManager : MonoBehaviour
         level++;
         currentExp -= expToLevel;
         expToLevel = Mathf.RoundToInt(expToLevel * expMultiplier);
+        lvlUp = true;
+        ChickenCombat.damage += 3;
+        ChickenHealth.maxHealth += 8;
+        ChickenHealth.currentHealth = ChickenHealth.maxHealth;
+
     }
 
     public void UpdateUI()
