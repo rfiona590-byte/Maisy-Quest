@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 //test
 public class SceneLoader : MonoBehaviour
 {
-    public void GoToScene(int sceneIndex)
+    public static void GoToScene(int sceneIndex)
     {
         SceneManager.LoadScene(sceneIndex);
     }

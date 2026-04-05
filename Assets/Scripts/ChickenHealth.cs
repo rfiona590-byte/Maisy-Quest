@@ -6,6 +6,7 @@ public class ChickenHealth : MonoBehaviour
 {
     public static int currentHealth;
     public static int maxHealth;
+    public static int numberOfKilled = 0;
     public int expReward = 5;
     public static bool chickenDeath = false;
     //broadcastes message that chicken has been defeated
@@ -30,6 +31,7 @@ public class ChickenHealth : MonoBehaviour
         {
             OnChickenDefeat(expReward);
             chickenDeath = true;
+            numberOfKilled++;
             Destroy(gameObject);
         }
         chickenDeath = false;

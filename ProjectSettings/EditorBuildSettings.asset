@@ -14,6 +14,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Maisey Quest/InfoScreen.unity
     guid: 71a4158cc7ea23a45856a934a75a1d2d
+  - enabled: 1
+    path: Assets/Maisey Quest/LoseScreen.unity
+    guid: 66f0489f44769054db96897991fcfcec
+  - enabled: 1
+    path: Assets/Maisey Quest/WinScreen.unity
+    guid: 3777282c7b537d042aedbddc1ea8d7e4
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0

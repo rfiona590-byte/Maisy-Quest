@@ -27,7 +27,7 @@ public class ChickenSpawner : MonoBehaviour
     void Update()
     {
         timeRemaining -= Time.deltaTime;
-        if (timeRemaining <= 0 && chickens.Count <= 5)
+        if (timeRemaining <= 0 && chickens.Count <= 8)
         {
             spawnChicken();
             SetTimeUntillSpawn();

@@ -70,5 +70,7 @@ public class PlayerMovement : MonoBehaviour
         rb.linearVelocity = Vector2.zero;
         isKnockedBack = false;
     }
+
+   
 }
 

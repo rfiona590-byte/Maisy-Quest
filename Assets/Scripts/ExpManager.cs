@@ -25,6 +25,11 @@ public class ExpManager : MonoBehaviour
         {
             GainExperience(2);
         }
+
+        if (level == 3)
+        {
+            SceneLoader.GoToScene(4);
+        }
     }
 
     //listens to see if chicken is defeated
@@ -56,7 +61,7 @@ public class ExpManager : MonoBehaviour
         expToLevel = Mathf.RoundToInt(expToLevel * expMultiplier);
         lvlUp = true;
         ChickenCombat.damage += 3;
-        ChickenHealth.maxHealth += 8;
+        ChickenHealth.maxHealth += 5;
         ChickenHealth.currentHealth = ChickenHealth.maxHealth;
 
     }

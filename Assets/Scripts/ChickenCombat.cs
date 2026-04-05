@@ -25,7 +25,7 @@ public class ChickenCombat : MonoBehaviour
         Debug.Log(hits[0]);
         if (hits.Length > 0)
         {
-            Debug.Log("Maisy");
+           
             hits[0].GetComponent<MaisyHealth>().ChangeHealth(-damage);
             hits[0].GetComponent<PlayerMovement>().Knockback(transform, knockbackForce, stunTime);
         }
