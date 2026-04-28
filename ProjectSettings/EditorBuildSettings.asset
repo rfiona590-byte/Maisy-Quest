@@ -18,8 +18,14 @@ EditorBuildSettings:
     path: Assets/Maisey Quest/LoseScreen.unity
     guid: 66f0489f44769054db96897991fcfcec
   - enabled: 1
+    path: Assets/Maisey Quest/BossFight.unity
+    guid: 9ca1bbd7e5701e643ada151491ef92ce
+  - enabled: 1
     path: Assets/Maisey Quest/WinScreen.unity
     guid: 3777282c7b537d042aedbddc1ea8d7e4
+  - enabled: 1
+    path: Assets/Maisey Quest/House.unity
+    guid: 673bdc3665003b946b9164595e3b7b18
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0

@@ -27,11 +27,6 @@ public class ExpManager : MonoBehaviour
         {
             GainExperience(2);
         }
-        //if player reaches this level, you will be teleported to boss fight!
-        if (level == 3)
-        {
-            SceneLoader.GoToScene(4);
-        }
     }
 
     //listens to see if chicken is defeated
