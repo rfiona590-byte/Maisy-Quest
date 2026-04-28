@@ -21,6 +21,7 @@ public class ChickenKnockback : MonoBehaviour
         rb.linearVelocity = direction * knockForce;
     }
 
+    //stun time for chciken after getting knocked back
     IEnumerator StunTimer (float stunTime)
     {
         yield return new WaitForSeconds (stunTime);

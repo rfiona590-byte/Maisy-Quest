@@ -12,6 +12,7 @@ public class MaisyCombat : MonoBehaviour
     public void MaisyAttack()
     {
         anim.SetBool("isAttacking", true);
+        //if chciken in range when attacking, does damage!
         Collider2D[] enemies = Physics2D.OverlapCircleAll(attackPoint.position, StatsManager.Instance.weaponRange, enemyLayer);
         if (enemies.Length > 0 )
         {
@@ -20,7 +21,7 @@ public class MaisyCombat : MonoBehaviour
         }
 
     }
-
+    //gets maisy out og=f attacking animatin
     public void FinishAttack()
     {
         anim.SetBool("isAttacking", false);

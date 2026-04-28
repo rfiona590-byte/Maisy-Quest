@@ -33,7 +33,7 @@ public class ChickenSpawner : MonoBehaviour
             SetTimeUntillSpawn();
         }
     }
-
+    //spawning chickens, spawns the chicken  prefab instance so everything assosiated with chicken happens with each  chicken spawned
     private void spawnChicken()
     {
         var chicken = Instantiate(chickenPrefab, transform.position, Quaternion.identity) as GameObject;
@@ -44,6 +44,7 @@ public class ChickenSpawner : MonoBehaviour
             chickens.RemoveAt(1);
         }
     }
+    //picks a random number to wait to spawn chicken out of the set max and min spawn time
     private void SetTimeUntillSpawn()
     {
         timeRemaining = Random.Range(minSpawnTime, maxSpawnTime);

@@ -11,6 +11,7 @@ public class ChickenCombat : MonoBehaviour
     public float knockbackForce;
     public LayerMask playerLayer;
 
+    //used for testing
     //private void OnCollisionEnter2D(Collision2D collision)
     //{
         //if (collision.gameObject.tag == "Player")
@@ -20,7 +21,7 @@ public class ChickenCombat : MonoBehaviour
     //}
     public void ChickenAttack ()
     {
-        
+        //does same as with maisey, makes a range and only attacks/does damage of player is in range
         Collider2D[] hits = Physics2D.OverlapCircleAll(attackPoint.position, range, playerLayer);
         Debug.Log(hits[0]);
         if (hits.Length > 0)
@@ -31,6 +32,7 @@ public class ChickenCombat : MonoBehaviour
         }
     }
 
+    //used for testing in unity, highlights the collider that is made
     private void OnDrawGizmosSelected()
     {
         Gizmos.color = Color.green;

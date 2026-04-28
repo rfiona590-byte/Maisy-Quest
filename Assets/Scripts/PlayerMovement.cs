@@ -17,6 +17,7 @@ public class PlayerMovement : MonoBehaviour
 
     private void Update()
     {
+        //if player clicks = attack
         if (Input.GetButtonDown("Attack"))
         {
             maisyCombat.MaisyAttack();
@@ -29,7 +30,7 @@ public class PlayerMovement : MonoBehaviour
         rbSprite = rb.GetComponent<SpriteRenderer>();
     }
 
-    // Update is called once per frame
+    // this player movement. gets input, and flips, moves, and controlls animation
     void FixedUpdate()
     {
         if (isKnockedBack == false)
@@ -43,7 +44,7 @@ public class PlayerMovement : MonoBehaviour
                 Flip();
             }
 
-
+            //sets up animation to play
             anim.SetFloat("horizontal", Mathf.Abs(horizontal));
             anim.SetFloat("vertical", Mathf.Abs(vertical));
 
@@ -56,7 +57,7 @@ public class PlayerMovement : MonoBehaviour
         facing *= -1;
         transform.localScale = new Vector3 (transform.localScale.x * -1, transform.localScale.y, transform.localScale.z);
     }
-
+    //how long the player gets knocked back for, and how far
     public void Knockback(Transform chicken, float force, float stunTime)
     {
         isKnockedBack = true;
@@ -64,6 +65,8 @@ public class PlayerMovement : MonoBehaviour
         rb.linearVelocity = direction * force;
         StartCoroutine(KnockbackCounter(stunTime));
     }
+
+    //the player gets stunned, and this stunns the player
     IEnumerator KnockbackCounter(float stunTime)
     {
         yield return new WaitForSeconds(stunTime);

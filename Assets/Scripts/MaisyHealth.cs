@@ -18,6 +18,7 @@ public class MaisyHealth : MonoBehaviour
 
     private void Update()
     {
+        //if player contacts apple, you get healed
         if (appleTrue == true)
         {
             StatsManager.Instance.currentHealth += 5;
@@ -33,6 +34,7 @@ public class MaisyHealth : MonoBehaviour
 
     public void ChangeHealth (int amount)
     {
+        //change health math. also updates UI when damage is taken
         StatsManager.Instance.currentHealth += amount;
         healthAnim.Play("HealthUpdate");
         healthText.text = "Health: " + StatsManager.Instance.currentHealth + " / " + StatsManager.Instance.maxHealth;

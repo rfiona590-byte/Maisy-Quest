@@ -16,16 +16,18 @@ public class ExpManager : MonoBehaviour
 
     private void Start()
     {
+        //updates the UI for EXP and leveling up
         UpdateUI();
     }
 
     private void Update()
     {
+        //this is used for testing lmao
         if (Input.GetKeyDown(KeyCode.Space))
         {
             GainExperience(2);
         }
-
+        //if player reaches this level, you will be teleported to boss fight!
         if (level == 3)
         {
             SceneLoader.GoToScene(4);
@@ -54,6 +56,7 @@ public class ExpManager : MonoBehaviour
         UpdateUI();
     }
 
+    //what happenes when player levels up
     private void LevelUp()
     {
         level++;
