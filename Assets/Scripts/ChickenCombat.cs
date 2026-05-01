@@ -12,13 +12,13 @@ public class ChickenCombat : MonoBehaviour
     public LayerMask playerLayer;
 
     //used for testing
-    //private void OnCollisionEnter2D(Collision2D collision)
-    //{
-        //if (collision.gameObject.tag == "Player")
-        //{
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.tag == "Player")
+        {
             //collision.gameObject.GetComponent<MaisyHealth>().ChangeHealth(-damage);
-        //}
-    //}
+        }
+    }
     public void ChickenAttack ()
     {
         //does same as with maisey, makes a range and only attacks/does damage of player is in range
