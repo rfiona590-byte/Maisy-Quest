@@ -5,6 +5,7 @@ using UnityEngine;
 public class ChickenHealth : MonoBehaviour
 {
     public static int currentHealth;
+    public float health = 5f;
     public static int maxHealth;
     public static int numberOfKilled = 0;
     public int expReward = 5;
@@ -17,6 +18,7 @@ public class ChickenHealth : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        health = currentHealth;
         currentHealth = maxHealth;
     }
 
