@@ -1,0 +1,520 @@
+fileFormatVersion: 2
+guid: 7568727ce362a4043aed03afe5dad240
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8639550914860323660
+    second: BossChickenAniSheet_0
+  - first:
+      213: 3682996048132002734
+    second: BossChickenAniSheet_1
+  - first:
+      213: -196121654440942064
+    second: BossChickenAniSheet_2
+  - first:
+      213: -5593307212380466681
+    second: BossChickenAniSheet_3
+  - first:
+      213: 2223273390043727705
+    second: BossChickenAniSheet_4
+  - first:
+      213: 2058564701277034797
+    second: BossChickenAniSheet_5
+  - first:
+      213: -1764271734431422066
+    second: BossChickenAniSheet_6
+  - first:
+      213: -5637238999010430784
+    second: BossChickenAniSheet_7
+  - first:
+      213: 4702523646439766771
+    second: BossChickenAniSheet_8
+  - first:
+      213: 1939845951956715017
+    second: BossChickenAniSheet_9
+  - first:
+      213: 8590377802414481187
+    second: BossChickenAniSheet_10
+  - first:
+      213: 3810599829073910320
+    second: BossChickenAniSheet_11
+  - first:
+      213: -7508333002447755683
+    second: BossChickenAniSheet_12
+  - first:
+      213: 585955508961108669
+    second: BossChickenAniSheet_13
+  - first:
+      213: -7690307763520619709
+    second: BossChickenAniSheet_14
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BossChickenAniSheet_0
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 2019
+        width: 852
+        height: 972
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c43962368c9d5e770800000000000000
+      internalID: 8639550914860323660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossChickenAniSheet_1
+      rect:
+        serializedVersion: 2
+        x: 1049
+        y: 2019
+        width: 882
+        height: 922
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea353167461ac1330800000000000000
+      internalID: 3682996048132002734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossChickenAniSheet_2
+      rect:
+        serializedVersion: 2
+        x: 2069
+        y: 2019
+        width: 852
+        height: 972
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0162946f46c374df0800000000000000
+      internalID: -196121654440942064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossChickenAniSheet_3
+      rect:
+        serializedVersion: 2
+        x: 3049
+        y: 2019
+        width: 882
+        height: 922
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7029e6699b49062b0800000000000000
+      internalID: -5593307212380466681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossChickenAniSheet_4
+      rect:
+        serializedVersion: 2
+        x: 4069
+        y: 2019
+        width: 852
+        height: 972
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 957822c6e57aade10800000000000000
+      internalID: 2223273390043727705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossChickenAniSheet_5
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 1019
+        width: 852
+        height: 972
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2996c660bd719c10800000000000000
+      internalID: 2058564701277034797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossChickenAniSheet_6
+      rect:
+        serializedVersion: 2
+        x: 1049
+        y: 1019
+        width: 892
+        height: 922
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e89e3fd743c0487e0800000000000000
+      internalID: -1764271734431422066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossChickenAniSheet_7
+      rect:
+        serializedVersion: 2
+        x: 2049
+        y: 1019
+        width: 912
+        height: 842
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c0310e6ff084c1b0800000000000000
+      internalID: -5637238999010430784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossChickenAniSheet_8
+      rect:
+        serializedVersion: 2
+        x: 3029
+        y: 1019
+        width: 962
+        height: 752
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fabae56758b24140800000000000000
+      internalID: 4702523646439766771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossChickenAniSheet_9
+      rect:
+        serializedVersion: 2
+        x: 4089
+        y: 1009
+        width: 812
+        height: 992
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9060c559d97bbea10800000000000000
+      internalID: 1939845951956715017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossChickenAniSheet_10
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 19
+        width: 852
+        height: 972
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32fd057f817273770800000000000000
+      internalID: 8590377802414481187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossChickenAniSheet_11
+      rect:
+        serializedVersion: 2
+        x: 1049
+        y: 19
+        width: 872
+        height: 942
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03a5d19ea58f1e430800000000000000
+      internalID: 3810599829073910320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossChickenAniSheet_12
+      rect:
+        serializedVersion: 2
+        x: 2039
+        y: 19
+        width: 882
+        height: 942
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5662c54aea0dc790800000000000000
+      internalID: -7508333002447755683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossChickenAniSheet_13
+      rect:
+        serializedVersion: 2
+        x: 3009
+        y: 19
+        width: 912
+        height: 902
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db26fcd4e6bb12800800000000000000
+      internalID: 585955508961108669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossChickenAniSheet_14
+      rect:
+        serializedVersion: 2
+        x: 4009
+        y: 19
+        width: 952
+        height: 782
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34bbce585d9864590800000000000000
+      internalID: -7690307763520619709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      BossChickenAniSheet_0: 8639550914860323660
+      BossChickenAniSheet_1: 3682996048132002734
+      BossChickenAniSheet_10: 8590377802414481187
+      BossChickenAniSheet_11: 3810599829073910320
+      BossChickenAniSheet_12: -7508333002447755683
+      BossChickenAniSheet_13: 585955508961108669
+      BossChickenAniSheet_14: -7690307763520619709
+      BossChickenAniSheet_2: -196121654440942064
+      BossChickenAniSheet_3: -5593307212380466681
+      BossChickenAniSheet_4: 2223273390043727705
+      BossChickenAniSheet_5: 2058564701277034797
+      BossChickenAniSheet_6: -1764271734431422066
+      BossChickenAniSheet_7: -5637238999010430784
+      BossChickenAniSheet_8: 4702523646439766771
+      BossChickenAniSheet_9: 1939845951956715017
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
