@@ -859,12 +859,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Congrats! In your dream, you reached a level of power that scared the
-    chickens outside! You wake up with hundreds of confidence points, and you know
-    for a fact that today will be a good day.
-
-    note: this will be updated later.
-    as of now, reach level 3 and boom you win'
+  m_text: Congrats! YOU WON! You wake up feeling like a million bucks. You have gained
+    so much confidence, its crazy! Next time you have this dream, who knows what
+    will happen???
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: c7549c705e7619f43b551ee6b641028b, type: 2}
   m_sharedMaterial: {fileID: 7682980070771716335, guid: c7549c705e7619f43b551ee6b641028b, type: 2}

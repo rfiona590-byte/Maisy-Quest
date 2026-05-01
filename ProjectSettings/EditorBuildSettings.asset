@@ -26,6 +26,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Maisey Quest/House.unity
     guid: 673bdc3665003b946b9164595e3b7b18
+  - enabled: 1
+    path: Assets/Maisey Quest/TonyText.unity
+    guid: 538962ba481a1724c8cbda998d134f81
+  - enabled: 1
+    path: Assets/Maisey Quest/FionaText.unity
+    guid: d48bd9687d803df4b9752edd04ff1953
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
